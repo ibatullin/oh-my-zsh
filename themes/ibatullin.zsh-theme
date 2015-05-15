@@ -35,7 +35,7 @@ get_space () {
 firstline() {
   spaces=`get_space $first_left $first_right`
   print
-  print -rP "%K{black}$first_left%K{black}$spaces$first_right"
+  print -rP "%K{black}$first_left%K{black}$spaces$first_right${reset_color}"
 
 }
 
