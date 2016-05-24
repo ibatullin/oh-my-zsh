@@ -41,7 +41,7 @@ firstline() {
 
 setopt promptsubst
 setopt promptpercent
-PROMPT=' %B❯%b $()'
+PROMPT=' %B❯%b '
 RPROMPT='!%{%B%F{cyan}%}%!%{%f%k%b%}'
 
 autoload -U add-zsh-hook
